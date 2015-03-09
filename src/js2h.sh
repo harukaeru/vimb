@@ -1,4 +1,5 @@
 #!/bin/sh
+alias echo="/bin/echo"
 
 echo -n '#define HINTS_JS "'
 cat $1 | \
